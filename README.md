@@ -49,3 +49,5 @@ You can have Cypress watch and restart tests on test file changes with this comm
 ```
 nx run dashboard-e2e:e2e --watch
 ```
+
+This is a test!
