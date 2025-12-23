@@ -3,6 +3,8 @@ import { Injectable } from '@angular/core';
 import { environment } from '@env/environment';
 import { Widget } from '@fem/api-interfaces';
 
+// within core-data folder we have code responsible for communicating with the server (Sending/receiving data) 
+
 @Injectable({
   providedIn: 'root',
 })

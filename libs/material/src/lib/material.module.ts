@@ -52,4 +52,6 @@ import { MatTooltipModule } from '@angular/material/tooltip';
     MatStepperModule,
   ]
 })
+// This way we just import components from Material libary that we need and export it out instead of importing the whole thing everywhere
+// we see performance gains
 export class MaterialModule {}

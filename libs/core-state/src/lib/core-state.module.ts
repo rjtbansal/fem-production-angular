@@ -9,6 +9,7 @@ import { reducers } from '.';
 import { WidgetsEffects } from './widgets/widgets.effects';
 import { WidgetsFacade } from './widgets/widgets.facade';
 
+// core-state folder contains code for managing state of the application 
 const STORE_NAME = 'fem-store';
 const storeConfig: RootStoreConfig<any, any> = {
   runtimeChecks: {
